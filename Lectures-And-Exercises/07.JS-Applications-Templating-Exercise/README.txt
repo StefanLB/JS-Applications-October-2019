@@ -1,0 +1,1 @@
+Run npm install in each individual exercise before launching the application.
