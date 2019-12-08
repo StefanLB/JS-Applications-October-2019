@@ -1,0 +1,12 @@
+{{> header}}
+{{> notifications}}
+    {{#if loggedIn}}
+        {{#if anyTreks}}
+            {{> allTreks}}
+        {{else}}
+            {{> noTreks}}
+        {{/if}}
+    {{else}}
+        {{> anonymousHome}}
+    {{/if}}
+{{> footer}}
